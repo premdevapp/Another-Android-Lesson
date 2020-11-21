@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MakeItRain</string>
+    <string name="title">Bank Credited With</string>
+    <string name="money_value"> </string>
+    <string name="button">Make It Rain</string>
+    <string name="button_showTags">Show Tags</string>
+</resources>
