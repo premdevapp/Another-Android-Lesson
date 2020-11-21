@@ -4,4 +4,5 @@
     <string name="money_value"> </string>
     <string name="button">Make It Rain</string>
     <string name="button_showTags">Show Tags</string>
+    <string name="say_something">Say Something</string>
 </resources>

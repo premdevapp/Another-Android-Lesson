@@ -15,16 +15,20 @@ import androidx.core.content.ContextCompat;
 import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
-    private Button showMoney;
-    private TextView moneyText;
-    private int mneyCounter = 0;
+     private Button newButton;
+    /* private Button showMoney;
+     private TextView moneyText;
+     private int mneyCounter = 0;*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //Context context = this;
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
+        setContentView(R.layout.amother_layout);
 
-        showMoney = findViewById(R.id.button_makeRain);
+        newButton = findViewById(R.id.button);
+
+        /*showMoney = findViewById(R.id.button_makeRain);
         moneyText = findViewById(R.id.moneyText);
 
         showMoney.setOnClickListener(new View.OnClickListener() {
@@ -52,10 +56,14 @@ public class MainActivity extends AppCompatActivity {
 
                 mneyCounter += 1;
             }
-        });
+        });*/
     }
-    public void showTag(View v){
+
+    public void click(View view) {
+        Log.d("MYNEWTAG", "click: click");
+    }
+    /*public void showTag(View v){
         Log.d("MYTAG", "onClick: Show Tag");
         Toast.makeText(getApplicationContext(), R.string.app_name , Toast.LENGTH_LONG).show();
-    }
+    }*/
 }
